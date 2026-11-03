@@ -1,0 +1,13 @@
+[package]
+name = "doc-fill-template"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Fill Word, PowerPoint and Excel templates with JSON or CSV data"
+repository = "https://github.com/nowmyagentcan/doc-fill-template"
+publish = false
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
